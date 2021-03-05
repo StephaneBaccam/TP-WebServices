@@ -26,6 +26,8 @@ namespace TP_API.Controllers
         protected IServiceCommande _serviceCommande;
         protected IServiceMessage _serviceMessage;
         protected IServiceCreneau _serviceCreneau;
+        protected IServiceReservation _serviceReservation;
+        protected IEmailSender _emailSender;
 
         public AController(IService<TModel> service)
         {

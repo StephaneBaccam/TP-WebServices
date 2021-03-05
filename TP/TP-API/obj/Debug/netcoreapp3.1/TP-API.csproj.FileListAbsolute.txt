@@ -46,3 +46,7 @@ D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-API\bin\Debug\netcoreapp3.1\M
 D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-API\bin\Debug\netcoreapp3.1\MailKit.dll
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-API\bin\Debug\netcoreapp3.1\MimeKit.dll
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-API\bin\Debug\netcoreapp3.1\NETCore.MailKit.dll

@@ -16,7 +16,14 @@ namespace TP_API.Controllers
     {
         public ReservationController(IServiceReservation serviceReservation) : base(serviceReservation)
         {
+            _serviceReservation = serviceReservation;
+        }
 
+        [HttpPost("creneau")]
+        public async Task<IActionResult> ReservationCreneau([FromBody] Reservation reservation)
+        {
+            await _serviceReservation.InsertAsync(reservation);
+            return Ok("Réservation confirmée");
         }
     }
 }

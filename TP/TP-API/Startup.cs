@@ -20,6 +20,7 @@ using TP_DAL.Providers;
 using TP_DAL.Services;
 using TP_DAL.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using TP_DAL.Email;
 
 namespace TP_API
 {
@@ -80,6 +81,11 @@ namespace TP_API
                     policy => policy.RequireRole("Admin"));
             });
 
+            var emailConfig = Configuration
+                .GetSection("EmailConfiguration")
+                .Get<EmailConfiguration>();
+            services.AddSingleton(emailConfig);
+
             services.Configure<AppSettingsModel>(Configuration.GetSection("ConnectionStrings"));
 
             services.AddControllers();
@@ -107,6 +113,8 @@ namespace TP_API
 
             services.AddTransient<IRepositoryUtilisateur, DataProvidersUtilisateur>();
             services.AddTransient<IServiceUtilisateur, ServiceUtilisateur>();
+
+            services.AddScoped<IEmailSender, EmailSender>();
 
             services.AddCors(options =>
             {
