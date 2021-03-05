@@ -1,0 +1,9 @@
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-DAL\obj\Debug\netcoreapp3.1\TP-DAL.csprojAssemblyReference.cache
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-DAL\obj\Debug\netcoreapp3.1\TP-DAL.AssemblyInfoInputs.cache
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-DAL\obj\Debug\netcoreapp3.1\TP-DAL.AssemblyInfo.cs
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-DAL\obj\Debug\netcoreapp3.1\TP-DAL.csproj.CoreCompileInputs.cache
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-DAL\bin\Debug\netcoreapp3.1\TP-DAL.deps.json
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-DAL\bin\Debug\netcoreapp3.1\TP-DAL.dll
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-DAL\bin\Debug\netcoreapp3.1\TP-DAL.pdb
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-DAL\obj\Debug\netcoreapp3.1\TP-DAL.dll
+D:\RandomStuff\LPMetinet\Modules\WebServices\TP\TP-DAL\obj\Debug\netcoreapp3.1\TP-DAL.pdb

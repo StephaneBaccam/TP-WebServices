@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP-API", "TP-API.csproj", "{D47EC3AE-4559-4062-B6F7-4860D8B11AD6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{513E0138-5859-4C28-A431-5AEAF01FEB55} = {513E0138-5859-4C28-A431-5AEAF01FEB55}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP-DAL", "..\TP-DAL\TP-DAL.csproj", "{513E0138-5859-4C28-A431-5AEAF01FEB55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D47EC3AE-4559-4062-B6F7-4860D8B11AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47EC3AE-4559-4062-B6F7-4860D8B11AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47EC3AE-4559-4062-B6F7-4860D8B11AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47EC3AE-4559-4062-B6F7-4860D8B11AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513E0138-5859-4C28-A431-5AEAF01FEB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513E0138-5859-4C28-A431-5AEAF01FEB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513E0138-5859-4C28-A431-5AEAF01FEB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513E0138-5859-4C28-A431-5AEAF01FEB55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B78EA959-54ED-46F8-BFE9-A2F49583B990}
+	EndGlobalSection
+EndGlobal
